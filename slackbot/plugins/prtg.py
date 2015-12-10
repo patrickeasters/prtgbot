@@ -81,7 +81,6 @@ def get_deviceid(device_name):
 def stats(message, device_name=None):
 	if device_name == 'None':
 		message.reply('Specify a device name, fool!')
-		message.reply('/giphy nick offerman fool')
 	else:
 		did = get_deviceid(device_name)
 		if not did:
@@ -98,7 +97,6 @@ def stats(message, device_name=None):
 def stats(message, device_name=None):
 	if device_name == 'None':
 		message.reply('Specify a device name, fool!')
-		message.reply('/giphy nick offerman fool')
 	else:
 		did = get_deviceid(device_name)
 		if not did:
@@ -108,3 +106,4 @@ def stats(message, device_name=None):
 				message.reply(device_name+' has been unpaused')
 			else:
 				message.reply('Failed to unpause device!')
+
